@@ -10,7 +10,20 @@ ThemeData appTheme() {
     brightness: Brightness.light,
     fontFamily: AppStrings.fontFamily,
     textTheme: const TextTheme(
-      labelLarge: TextStyle(),
+      bodyLarge: TextStyle(
+        fontSize: 15,
+        fontWeight: FontWeight.bold,
+        color: Colors.white,
+      ),
+    ),
+    appBarTheme: const AppBarTheme(
+      titleTextStyle: TextStyle(
+        color: Colors.black,
+        fontSize: 20,
+      ),
+      color: Colors.transparent,
+      elevation: 0,
+      centerTitle: true,
     ),
   );
 }
