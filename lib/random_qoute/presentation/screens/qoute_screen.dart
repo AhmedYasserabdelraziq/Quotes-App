@@ -28,6 +28,12 @@ class QuotesScreen extends StatelessWidget {
                 ),
               ),
             ),
+          ),Padding(
+            padding: const EdgeInsets.only(top: 8.0),
+            child: Text(
+              'bill gets',
+              style: Theme.of(context).textTheme.bodyLarge,
+            ),
           ),
           const SizedBox(
             height: 15,
